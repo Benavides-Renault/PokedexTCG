@@ -1,0 +1,48 @@
+.deck-card {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	background-color: var(--card-bg);
+	color: var(--text);
+	padding: 0.7rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 0.8rem;
+	transition: transform 0.2s ease;
+}
+
+.deck-card:hover {
+	transform: scale(1.02);
+}
+
+.deck-card-img {
+	width: 80px;
+	border-radius: 6px;
+}
+
+.deck-card-info h4 {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.deck-card-info p {
+	margin: 0.2rem 0;
+	font-size: 0.8rem;
+	color: #666;
+}
+
+.deck-card-info button {
+	margin-top: 0.3rem;
+	padding: 0.3rem 0.7rem;
+	font-size: 0.8rem;
+	background-color: #c00;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.deck-card-info button:hover {
+	background-color: #a00;
+}

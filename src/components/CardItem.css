@@ -1,0 +1,48 @@
+.card-item {
+	background-color: var(--card-bg);
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	animation: popIn 0.3s ease;
+}
+
+.card-item:hover {
+	transform: scale(1.05);
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+	width: 100%;
+	display: block;
+}
+
+.card-info {
+	padding: 0.6rem 1rem;
+	background-color: var(--bg);
+	color: var(--text);
+	text-align: center;
+}
+
+.card-info h3 {
+	margin: 0.5rem 0 0.2rem;
+	font-size: 1rem;
+}
+
+.card-info p {
+	margin: 0;
+	font-size: 0.8rem;
+	color: #666;
+}
+
+@keyframes popIn {
+	from {
+		opacity: 0;
+		transform: scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

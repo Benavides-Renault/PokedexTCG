@@ -1,0 +1,57 @@
+.home-page {
+	max-width: 1200px;
+	margin: auto;
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+.search-input {
+	width: 100%;
+	max-width: 400px;
+	padding: 0.6rem 1rem;
+	margin: 1rem 0 2rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: white;
+}
+
+html.dark .search-input {
+	background-color: #222;
+	color: #f0f0f0;
+	border: 1px solid #555;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 1.5rem;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin: 2rem 0;
+}
+
+.pagination button {
+	padding: 0.5rem 1.2rem;
+	background-color: #0078d4;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.pagination span {
+	font-weight: bold;
+}

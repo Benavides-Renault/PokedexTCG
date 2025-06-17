@@ -27,7 +27,7 @@ function Landing() {
 
 	return (
 		<div className="landing">
-			<h1>✨ Bienvenido a tu Pokédex TCG</h1>
+			<h1> Bienvenido a tu Pokédex TCG</h1>
 
 			<div className="landing-card">
 				<label>
@@ -43,11 +43,11 @@ function Landing() {
 				{!creatingDeck && inputName && (
 					<div className="landing-options">
 						<button onClick={() => handleOption('pokedex')}>
-							🔎 Ver Pokédex
+							 Ver Pokédex
 						</button>
-						<button onClick={() => handleOption('deck')}>🃏 Ver Deck</button>
+						<button onClick={() => handleOption('deck')}> Ver Deck</button>
 						<button onClick={() => handleOption('crear')}>
-							✨ Crear nuevo Deck
+							 Crear nuevo Deck
 						</button>
 					</div>
 				)}
@@ -60,10 +60,10 @@ function Landing() {
 								type="text"
 								value={deckName}
 								onChange={(e) => setDeckName(e.target.value)}
-								placeholder="Ej: Equipo Fuego 🔥"
+								placeholder="Ej: Equipo Fuego "
 							/>
 						</label>
-						<button onClick={handleCreateDeck}>🚀 Crear y continuar</button>
+						<button onClick={handleCreateDeck}> Crear y continuar</button>
 					</div>
 				)}
 			</div>

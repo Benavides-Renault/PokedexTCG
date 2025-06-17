@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<p>
-				🃏 Pokédex TCG por <strong>Orlando Renault</strong> 😎 &copy; 2025
+				 Pokédex TCG por <strong>Orlando Renault</strong>  &copy; 2025
 			</p>
 			<a
 				href="https://github.com/Benavides-Renault"

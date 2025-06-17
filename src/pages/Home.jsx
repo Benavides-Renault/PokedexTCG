@@ -48,7 +48,7 @@ function Home() {
 
 	return (
 		<div className="home-page">
-			<h2>📚 Pokédex</h2>
+			<h2> Pokédex</h2>
 
 			<input
 				type="text"

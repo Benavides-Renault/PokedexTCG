@@ -9,19 +9,19 @@ function Navigation() {
 				to="/home"
 				className={({ isActive }) => (isActive ? 'active' : '')}
 			>
-				🖥 Home
+				 Home
 			</NavLink>
 			<NavLink
 				to="/deck"
 				className={({ isActive }) => (isActive ? 'active' : '')}
 			>
-				🃏 Deck
+				 Deck
 			</NavLink>
 			<NavLink
 				to="/about"
 				className={({ isActive }) => (isActive ? 'active' : '')}
 			>
-				🧠 About
+				 About
 			</NavLink>
 		</nav>
 	);
